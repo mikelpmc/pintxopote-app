@@ -1,0 +1,24 @@
+{
+    "name": "logic",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha .",
+        "debug-test": "mocha debug .",
+        "coverage": "nyc mocha .",
+        "coverage-report": "nyc --reporter=html --reporter=text mocha .",
+        "fake-data": "node ./utils/fakeData.js"
+    },
+    "keywords": [],
+    "author": "mikelpmc",
+    "dependencies": {
+        "models": "file:../data",
+        "moment": "^2.22.2"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "dotenv": "^6.0.0",
+        "lodash": "^4.17.10"
+    }
+}

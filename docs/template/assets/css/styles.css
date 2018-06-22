@@ -1,0 +1,53 @@
+body {
+    background: #ffffff;
+}
+
+a {
+    color: #e91e63;
+}
+a:hover {
+    color: #801037;
+}
+
+/**
+    HOME
+**/
+
+.img-pintxo {
+    height: 200px;
+}
+
+/**
+  LOGIN  
+**/
+
+.bg-login {
+    background: url('../images/bg-login.jpg');
+    background-position: center;
+}
+
+/**
+    FORMS
+**/
+
+.form-check .form-check-input:checked + .form-check-sign .check {
+    background: #e91e63;
+}
+
+.form-control,
+.is-focused .form-control {
+    background-image: linear-gradient(
+            to top,
+            #e91e63 2px,
+            rgba(156, 39, 176, 0) 2px
+        ),
+        linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+/**
+    PERFIL
+**/
+
+.profile-data {
+    list-style: none;
+}

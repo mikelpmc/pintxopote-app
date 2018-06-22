@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil - Pintxopote</title>
+
+    <!-- Fonts and icons -->
+    <link rel="stylesheet" type="text/css" href="vendor/icons/material/material-icons.css" />
+    <link rel="stylesheet" href="vendor/icons/fontawesome/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="assets/css/material-kit.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-rose">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="home.html">
+                    <span class="font-weight-bold">Pintxopote</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="home.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="bares.html" class="nav-link">Bares</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mikel
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="perfil.html">Perfil</a>
+                            <a class="dropdown-item" href="compras.html">Compras</a>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <form class="form-inline ml-auto">
+                    <div class="form-group has-white">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-white btn-raised btn-fab btn-fab-mini btn-round">
+                        <i class="material-icons">search</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main main-raised mt-5">
+        <div class="profile-content mb-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-6 ml-auto mr-auto">
+                        <div class="profile">
+                            <div class="name">
+                                <h3 class="title">Mikel Para</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-profile pb-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="nav nav-pills nav-pills-rose flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#tab1" data-toggle="tab">Tus Datos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tab2" data-toggle="tab">Editar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tab3" data-toggle="tab">Compras</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="tab-content">
+                                <!-- DATA -->
+                                <div class="tab-pane active" id="tab1">
+
+                                    <span>Datos</span>
+                                    <hr>
+                                    <ul class="profile-data">
+                                        <li>Nombre: Mikel</li>
+                                        <li>Apellido: Parra</li>
+                                        <li>Email: mikelpmc@gmail.com</li>
+                                    </ul>
+
+                                    <br>
+
+                                    <span>Dirección</span>
+                                    <hr>
+                                    <ul class="profile-data" s>
+                                        <li>Calle: Calle Bilbao</li>
+                                        <li>Ciudad: Bilbao</li>
+                                        <li>Código Postal: 48005</li>
+                                        <li>País: España</li>
+                                    </ul>
+                                </div>
+
+                                <!-- EDIT -->
+                                <div class="tab-pane" id="tab2">
+                                    <form class="form" method="" action="">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Nombre</label>
+                                            <input type="text" class="form-control" value="Mikel" placeholder="Introduce tu nombre">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Apellido</label>
+                                            <input type="text" class="form-control" value="Parra" placeholder="Introduce tu apellido">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Email</label>
+                                            <input type="email" class="form-control" value="mikelpmc@gmail.com" placeholder="Introduce tu email">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Calle</label>
+                                            <input type="text" class="form-control" value="Calle Bilbao" placeholder="Introduce tu calle">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Ciudad</label>
+                                            <input type="text" class="form-control" value="Bilbao" placeholder="Introduce tu código ciudad">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Código Postal</label>
+                                            <input type="text" class="form-control" value="48005" placeholder="Introduce tu código postal">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">País</label>
+                                            <input type="text" class="form-control" value="España" placeholder="Introduce tu país">
+                                        </div>
+
+                                        <div class="text-center">
+                                            <a href="#" class="btn btn-rose btn-round">Editar</a>
+                                        </div>
+                                    </form>
+
+                                </div>
+
+                                <!-- COMPRAS -->
+                                <div class="tab-pane" id="tab3">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam atque iste voluptate quibusdam velit facere quos enim et.
+                                    Iure quia cumque exercitationem libero odit dolores quidem aliquam error, molestias saepe!
+                                    Pariatur, accusantium. Unde debitis tempora repellat ipsum ipsa quia quam, assumenda,
+                                    illum quidem ratione non fuga corrupti laudantium deserunt quisquam. Sed excepturi vel
+                                    tenetur. Facilis nulla iure perspiciatis expedita ipsum! Dignissimos, porro. Sed eveniet
+                                    sapiente, exercitationem in consectetur dolorum porro et repellendus, reprehenderit dignissimos,
+                                    provident ducimus facere assumenda voluptatibus ea accusamus suscipit veritatis delectus.
+                                    Ullam excepturi quis unde cum non? Ratione a nihil nam repudiandae repellat illo enim
+                                    debitis perferendis amet, saepe sit, quidem cupiditate dolor ipsa exercitationem minima
+                                    iure quas quam omnis, provident ad itaque. Sed expedita minus harum? Dolore dignissimos
+                                    corrupti, dolorem expedita suscipit sunt delectus, commodi quisquam hic iste consequatur.
+                                    Nemo possimus totam aliquid qui, molestias labore nam at voluptatum recusandae sapiente
+                                    nisi voluptatem ullam quia repudiandae. Fugiat aliquid autem inventore! Fugiat ab earum
+                                    dignissimos vero accusamus tempore, odit illo beatae placeat nisi expedita obcaecati
+                                    rerum facere ratione. Quidem veritatis vero ipsa id cum sit. Soluta, iste!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/core/bootstrap-material-design.min.js"></script>
+    <script src="assets/js/material-kit.min.js"></script>
+</body>
+
+</html>
