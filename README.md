@@ -2,7 +2,7 @@
 
 ## Functional description
 
-#### Server Side Rendering React App with Redux, Express and Socket.io for realtime interaction.
+#### Server Side Rendering Isomorphic React App with Redux, Express and Socket.io for realtime interaction.
 
 [Documentation](docs)
 
